@@ -19,3 +19,7 @@ nav .search-icon span {
   padding: 0 0.5em;
   
 }
+
+.navbar-nav a {
+  font-weight: bold;
+}
