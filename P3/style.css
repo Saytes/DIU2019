@@ -6,4 +6,9 @@ body {
 
 nav h1 {
   font-family: 'Marck Script', cursive;
+  margin: 0;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 0.8em;
 }
