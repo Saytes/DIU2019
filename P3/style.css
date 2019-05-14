@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kalam|Marck+Script|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Open+Sans');
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -21,5 +21,11 @@ nav .search-icon span {
 }
 
 .navbar-nav a {
+  font-weight: bold;
+}
+
+
+.mas-eventos span {
+  font-size: 1.1em;
   font-weight: bold;
 }
