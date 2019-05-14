@@ -6,9 +6,16 @@ body {
 
 nav h1 {
   font-family: 'Marck Script', cursive;
+  font-size: 2em;
   margin: 0;
 }
 
+nav .search-icon span {
+  font-weight: bold;
+  font-size: 0.9em;
+} 
+
 .navbar-nav .nav-item {
-  padding: 0 0.8em;
+  padding: 0 0.5em;
+  
 }
