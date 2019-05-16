@@ -9,452 +9,508 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="shortcut icon" href="ugr_logo.jpeg" type="image/x-icon">
   <title>Canal UGR</title>
 </head>
 
 <body class="white">
-    <!--Main Navigation-->
-    <header>
+  <!--Main Navigation-->
+  <header>
 
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark white">
-    
-          <!-- Additional container -->
-          <div class="container">
-    
-            <!-- Navbar brand -->
-            <a class="navbar-brand inicio-button text-dark" href="#"><h1>Canal UGR</h1></a>
-    
-            <!-- Collapse button -->
-            <button class="navbar-toggler btn-outline-elegant" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-              aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark white">
+
+      <!-- Additional container -->
+      <div class="container">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand inicio-button text-dark" href="#">
+          <h1>Canal UGR</h1>
+        </a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler btn-outline-elegant" type="button" data-toggle="collapse"
+          data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mx-auto">
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-button text-dark dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Actividades semanales</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item text-dark ocio-button" href="#">Ocio y talleres</a>
+                <a class="dropdown-item text-dark conferencias-button" href="#">Conferencias</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-button text-dark exposiciones-button" href="#">Exposiciones</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-button text-dark dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Últimas novedades</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item text-dark canal-button" href="#">Canal UGR</a>
+                <a class="dropdown-item text-dark hoja-button" href="#">Hoja Informativa</a>
+              </div>
+            </li>
+
+            <li class="nav-item d-lg-none d-block text-center my-3">
+              <button type="button" class="btn btn-outline-elegant" id="search-button" data-toggle="modal"
+                data-target="#modalContactForm">
+                <i class="fas fa-search fa-lg"></i>
+                <span class="px-1">Búsqueda avanzada</span>
+              </button>
+            </li>
+          </ul>
+          <!-- Links -->
+
+          <div class="search-icon ml-lg-auto d-none d-lg-block">
+            <button type="button" class="btn btn-outline-dark" id="search-button" data-toggle="modal"
+              data-target="#modalContactForm">
+              <i class="fas fa-search fa-lg"></i>
+              <span class="px-1">Búsqueda avanzada</span>
             </button>
-    
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-    
-              <!-- Links -->
-              <ul class="navbar-nav mx-auto">
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-button text-dark dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">Actividades semanales</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item text-dark ocio-button" href="#">Ocio y talleres</a>
-                      <a class="dropdown-item text-dark conferencias-button" href="#">Conferencias</a>
-                    </div>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-button text-dark exposiciones-button" href="#">Exposiciones</a>
-                </li>
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-button text-dark dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">Últimas novedades</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item text-dark canal-button" href="#">Canal UGR</a>
-                      <a class="dropdown-item text-dark hoja-button" href="#">Hoja Informativa</a>
-                    </div>
-                </li>
+          </div>
+        </div>
+        <!-- Collapsible content -->
 
-                <li class="nav-item d-lg-none d-block text-center my-3">
-                  <button type="button" class="btn btn-outline-elegant" id="search-button" data-toggle="modal" data-target="#modalContactForm">
-                    <i class="fas fa-search fa-lg"></i>
-                    <span class="px-1">Búsqueda avanzada</span>
-                  </button>                
-                </li>
-              </ul>
-              <!-- Links -->
-    
-              <div class="search-icon ml-lg-auto d-none d-lg-block">
-                <button type="button" class="btn btn-outline-dark" id="search-button" data-toggle="modal" data-target="#modalContactForm">
-                  <i class="fas fa-search fa-lg"></i>
-                  <span class="px-1">Búsqueda avanzada</span>
-                </button>
+      </div>
+      <!-- Additional container -->
+
+    </nav>
+    <!--/.Navbar-->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-4 white-color">
+
+
+
+
+
+
+
+
+
+
+
+    <!--Home container-->
+    <div class="container home-container contenido">
+
+      <!--Grid row-->
+      <div class="row justify-content-center mb-3">
+
+        <!--Grid column-->
+        <div class="col-md-10 text-center presentacion">
+
+          <h2 class="text-center">Descubre lo increíble</h2>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
+            dolorem
+            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+            natus quaerat!
+          </p>
+          <p>Fin de la presentación de la plataforma</p>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+      <!--Carrusel-->
+      <div id="demo" class="carousel my-4 mx-5 slide" data-ride="carousel">
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!--Card-->
+            <div class="card text-center">
+              <div class="card-header elegant-color text-white">
+                Ocio y talleres
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+              <div class="card-footer elegant-color text-white">
+                2 days ago
               </div>
             </div>
-            <!-- Collapsible content -->
-    
+            <!--/.Card-->
           </div>
-          <!-- Additional container -->
-    
-        </nav>
-        <!--/.Navbar-->
-    
-      </header>
-      <!--Main Navigation-->
-    
-      <!--Main layout-->
-      <main class="mt-4 white-color">
-    
-
-
-
-        
-
-
-
-
-
-
-        <!--Home container-->
-        <div class="container home-container contenido">
-    
-          <!--Grid row-->
-          <div class="row justify-content-center mb-3">
-  
-            <!--Grid column-->
-            <div class="col-md-10 text-center presentacion">
-    
-              <h2 class="text-center">Descubre lo increíble</h2>
-              <hr>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
-                dolorem
-                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
-                natus quaerat!
-              </p>    
-              <p>Fin de la presentación de la plataforma</p>
-            </div>
-            <!--Grid column-->
-    
-          </div>
-          <!--Grid row-->
-    
-         
-          <!--Carrusel-->
-          <div id="demo" class="carousel my-4 mx-5 slide" data-ride="carousel">
-
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <!--Card-->
-                  <div class="card text-center">
-                      <div class="card-header elegant-color text-white">
-                        Featured
-                      </div>
-                      <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
-                      </div>
-                      <div class="card-footer elegant-color text-white">
-                        2 days ago
-                      </div>
-                  </div>
-                  <!--/.Card-->
-                </div>
-                <div class="carousel-item">
-                                    <!--Card-->
-                                    <div class="card text-center">
-                                        <div class="card-header elegant-color text-white">
-                                          Featured
-                                        </div>
-                                        <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                          <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
-                                        </div>
-                                        <div class="card-footer elegant-color text-white">
-                                          2 days ago
-                                        </div>
-                                    </div>
-                                    <!--/.Card-->
-                </div>
-                <div class="carousel-item">
-                                    <!--Card-->
-                                    <div class="card text-center">
-                                        <div class="card-header elegant-color text-white">
-                                          Featured
-                                        </div>
-                                        <div class="card-body">
-                                          <h5 class="card-title">Special title treatment</h5>
-                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                          <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
-                                        </div>
-                                        <div class="card-footer elegant-color text-white">
-                                          2 days ago
-                                        </div>
-                                    </div>
-                                    <!--/.Card-->
-                </div>
+          <div class="carousel-item">
+            <!--Card-->
+            <div class="card text-center">
+              <div class="card-header elegant-color text-white">
+                Conferencias
               </div>
-            
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <i class="fas fa-caret-left carousel-control fa-3x"></i>              </a>
-              <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <i class="fas fa-caret-right carousel-control fa-3x"></i>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+              <div class="card-footer elegant-color text-white">
+                2 days ago
+              </div>
+            </div>
+            <!--/.Card-->
+          </div>
+          <div class="carousel-item">
+            <!--Card-->
+            <div class="card text-center">
+              <div class="card-header elegant-color text-white">
+                Exposiciones
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+              <div class="card-footer elegant-color text-white">
+                2 days ago
+              </div>
+            </div>
+            <!--/.Card-->
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <i class="fas fa-caret-left carousel-control fa-3x"></i> </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <i class="fas fa-caret-right carousel-control fa-3x"></i>
+        </a>
+
+      </div>
+      <!--Carrusel-->
+
+    </div>
+    <!--Home container-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Ocio container-->
+    <div class="container ocio-container contenido">
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-7 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 mb-4">
+
+          <h2>Ocio en la ugr</h2>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
+            dolorem
+            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+            natus quaerat!
+          </p>
+          <p>Fin de la presentación de la plataforma</p>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+      <!--Grid row-->
+      <div class="row card-row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
               </a>
-            
             </div>
-          <!--Carrusel-->
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+
+              </div>
+            </div>
+
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
 
         </div>
-        <!--Home container-->
+        <!--Grid column-->
 
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
 
+          <!--Card-->
+          <div class="card">
 
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--Ocio container-->
-        <div class="container ocio-container contenido">
-    
-          <!--Grid row-->
-          <div class="row">
-    
-            <!--Grid column-->
-            <div class="col-md-7 mb-4">
-    
-              <div class="view overlay z-depth-1-half">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
-                <div class="mask rgba-white-light"></div>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
               </div>
-    
             </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-md-5 mb-4">
-    
-              <h2>Ocio en la ugr</h2>
-              <hr>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
-                dolorem
-                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
-                natus quaerat!
-              </p>    
-              <p>Fin de la presentación de la plataforma</p>
+            <!-- Card footer -->
+
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
             </div>
-            <!--Grid column-->
-    
           </div>
-          <!--Grid row-->
-    <!--Grid row-->
-          <div class="row card-row">
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#!" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
-            </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
-            </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
-            </div>
-            <!--Grid column-->
-    
-          </div>
-          <!--Grid row-->
+          <!--/.Card-->
 
-          <!--Grid row-->
-          <div class="row">
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#!" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-    
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
               </div>
-              <!--/.Card-->
-    
             </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
             </div>
-            <!--Grid column-->
-    
           </div>
-          <!--Grid row-->
-    
-          <div class="row">
-            <div class="col-3 mx-auto my-2">
-                <div class="btn btn-block btn-outline-elegant mas-eventos">
-                  <span>Carga más eventos</span>
-                  <i class="fas fa-caret-down fa-lg"></i>
-                </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <div class="row">
+        <div class="col-3 mx-auto my-2">
+          <div class="btn btn-block btn-outline-elegant mas-eventos">
+            <span>Cargar más</span>
+            <i class="fas fa-caret-down fa-lg"></i>
           </div>
         </div>
-        <!--Ocio container-->
-    
+      </div>
+    </div>
+    <!--Ocio container-->
 
 
 
@@ -465,249 +521,299 @@
 
 
 
-        <!--Conferencias container-->
-        <div class="container conferencias-container contenido">
-    
-          <!--Grid row-->
-          <div class="row">
-    
-            <!--Grid column-->
-            <div class="col-md-7 mb-4">
-    
-              <div class="view overlay z-depth-1-half">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
-                <div class="mask rgba-white-light"></div>
-              </div>
-    
-            </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-md-5 mb-4">
-    
-              <h2>Descubre lo increíble</h2>
-              <hr>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
-                dolorem
-                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
-                natus quaerat!
-              </p>    
-              <p>Fin de la presentación de la plataforma</p>
-            </div>
-            <!--Grid column-->
-    
+
+    <!--Conferencias container-->
+    <div class="container conferencias-container contenido">
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-7 mb-4">
+
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
           </div>
-          <!--Grid row-->
-    
-          <!--Grid row-->
-          <div class="row card-row">
-    
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-12 mb-4">
-      
-                <!--Card-->
-                <div class="card">
-      
-                  <!--Card image-->
-                  <div class="view overlay">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                      alt="">
-                    <a href="#">
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-      
-                  <!--Card content-->
-                  <div class="card-body">
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-                    <!--Text-->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a href="#!" class="btn btn-indigo">Button</a>
-                  </div>
-      
-                </div>
-                <!--/.Card-->
-      
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-6 mb-4">
-      
-                <!--Card-->
-                <div class="card">
-      
-                  <!--Card image-->
-                  <div class="view overlay">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                      alt="">
-                    <a href="#">
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-      
-                  <!--Card content-->
-                  <div class="card-body">
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-                    <!--Text-->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a href="#" class="btn btn-indigo">Button</a>
-                  </div>
-      
-                </div>
-                <!--/.Card-->
-      
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-6 mb-4">
-      
-                <!--Card-->
-                <div class="card">
-      
-                  <!--Card image-->
-                  <div class="view overlay">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                      alt="">
-                    <a href="#">
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-      
-                  <!--Card content-->
-                  <div class="card-body">
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-                    <!--Text-->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a href="#" class="btn btn-indigo">Button</a>
-                  </div>
-      
-                </div>
-                <!--/.Card-->
-      
-              </div>
-              <!--Grid column-->
-      
-            </div>
-            <!--Grid row-->
 
-          <!--Grid row-->
-          <div class="row">
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#!" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 mb-4">
+
+          <h2>Descubre lo increíble</h2>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
+            dolorem
+            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+            natus quaerat!
+          </p>
+          <p>Fin de la presentación de la plataforma</p>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row card-row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-    
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
               </div>
-              <!--/.Card-->
-    
             </div>
-            <!--Grid column-->
-    
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-    
-              <!--Card-->
-              <div class="card">
-    
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-    
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-    
-              </div>
-              <!--/.Card-->
-    
-            </div>
-            <!--Grid column-->
-    
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
           </div>
-          <!--Grid row-->
-    
-          <div class="row">
-            <div class="col-3 mx-auto my-2">
-                <div class="btn btn-block btn-outline-elegant mas-eventos">
-                  <span>Carga más eventos</span>
-                  <i class="fas fa-caret-down fa-lg"></i>
-                </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <div class="row">
+        <div class="col-3 mx-auto my-2">
+          <div class="btn btn-block btn-outline-elegant mas-eventos">
+            <span>Cargar más</span>
+            <i class="fas fa-caret-down fa-lg"></i>
           </div>
         </div>
-        <!--Conferencias container-->
+      </div>
+    </div>
+    <!--Conferencias container-->
 
 
 
@@ -716,249 +822,297 @@
 
 
 
-        <!--Exposiones container-->
-        <div class="container exposiciones-container contenido">
-            
-          <!--Grid row-->
-          <div class="row">
+    <!--Exposiones container-->
+    <div class="container exposiciones-container contenido">
 
-            <!--Grid column-->
-            <div class="col-md-7 mb-4">
+      <!--Grid row-->
+      <div class="row">
 
-              <div class="view overlay z-depth-1-half">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
-                <div class="mask rgba-white-light"></div>
-              </div>
+        <!--Grid column-->
+        <div class="col-md-7 mb-4">
 
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-5 mb-4">
-
-              <h2>Descubre lo increíble</h2>
-              <hr>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
-                dolorem
-                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
-                natus quaerat!
-              </p>    
-              <p>Fin de la presentación de la plataforma</p>
-            </div>
-            <!--Grid column-->
-
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
           </div>
-          <!--Grid row-->
 
-          <!--Grid row-->
-          <div class="row">
+        </div>
+        <!--Grid column-->
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
+        <!--Grid column-->
+        <div class="col-md-5 mb-4">
 
-              <!--Card-->
-              <div class="card">
+          <h2>Descubre lo increíble</h2>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
+            dolorem
+            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+            natus quaerat!
+          </p>
+          <p>Fin de la presentación de la plataforma</p>
+        </div>
+        <!--Grid column-->
 
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
+      </div>
+      <!--Grid row-->
 
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#!" class="btn btn-indigo">Button</a>
-                </div>
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
 
               </div>
-              <!--/.Card-->
-
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-              <!--Card-->
-              <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-
-              </div>
-              <!--/.Card-->
-
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-              <!--Card-->
-              <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-
-              </div>
-              <!--/.Card-->
-
-            </div>
-            <!--Grid column-->
-
           </div>
-          <!--Grid row-->
+          <!--/.Card-->
 
-          <!--Grid row-->
-          <div class="row card-row">
-    
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-12 mb-4">
-      
-                <!--Card-->
-                <div class="card">
-      
-                  <!--Card image-->
-                  <div class="view overlay">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                      alt="">
-                    <a href="#">
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-      
-                  <!--Card content-->
-                  <div class="card-body">
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-                    <!--Text-->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a href="#!" class="btn btn-indigo">Button</a>
-                  </div>
-      
-                </div>
-                <!--/.Card-->
-      
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-6 mb-4">
-      
-                <!--Card-->
-                <div class="card">
-      
-                  <!--Card image-->
-                  <div class="view overlay">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                      alt="">
-                    <a href="#">
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-      
-                  <!--Card content-->
-                  <div class="card-body">
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-                    <!--Text-->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a href="#" class="btn btn-indigo">Button</a>
-                  </div>
-      
-                </div>
-                <!--/.Card-->
-      
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-6 mb-4">
-      
-                <!--Card-->
-                <div class="card">
-      
-                  <!--Card image-->
-                  <div class="view overlay">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                      alt="">
-                    <a href="#">
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-      
-                  <!--Card content-->
-                  <div class="card-body">
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-                    <!--Text-->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
-                    <a href="#" class="btn btn-indigo">Button</a>
-                  </div>
-      
-                </div>
-                <!--/.Card-->
-      
-              </div>
-              <!--Grid column-->
-      
-            </div>
-            <!--Grid row-->
+        </div>
+        <!--Grid column-->
 
-          <div class="row">
-            <div class="col-3 mx-auto my-2">
-                <div class="btn btn-block btn-outline-elegant mas-eventos">
-                  <span>Carga más eventos</span>
-                  <i class="fas fa-caret-down fa-lg"></i>
-                </div>
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <!--Grid row-->
+      <div class="row card-row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+
+              </div>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a href="#" class="btn btn-outline-elegant">Visitar evento</a>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <div class="row">
+        <div class="col-3 mx-auto my-2">
+          <div class="btn btn-block btn-outline-elegant mas-eventos">
+            <span>Cargar más</span>
+            <i class="fas fa-caret-down fa-lg"></i>
           </div>
         </div>
-        <!--Exposiciones container-->
+      </div>
+    </div>
+    <!--Exposiciones container-->
 
 
 
@@ -968,296 +1122,348 @@
 
 
 
-        <!--canal container-->
-        <div class="container canal-container contenido">
-            
-          <!--Grid row-->
-          <div class="row">
+    <!--canal container-->
+    <div class="container canal-container contenido">
 
-            <!--Grid column-->
-            <div class="col-md-7 mb-4">
+      <!--Grid row-->
+      <div class="row">
 
-              <div class="view overlay z-depth-1-half">
-                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
-                <div class="mask rgba-white-light"></div>
-              </div>
+        <!--Grid column-->
+        <div class="col-md-7 mb-4">
 
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-5 mb-4">
-
-              <h2>Descubre lo increíble</h2>
-              <hr>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
-                dolorem
-                voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
-                natus quaerat!
-              </p>    
-              <p>Fin de la presentación de la plataforma</p>
-            </div>
-            <!--Grid column-->
-
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
           </div>
-          <!--Grid row-->
 
-          <!--Grid row-->
-          <div class="row">
+        </div>
+        <!--Grid column-->
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
+        <!--Grid column-->
+        <div class="col-md-5 mb-4">
 
-              <!--Card-->
-              <div class="card">
+          <h2>Descubre lo increíble</h2>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
+            dolorem
+            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+            natus quaerat!
+          </p>
+          <p>Fin de la presentación de la plataforma</p>
+        </div>
+        <!--Grid column-->
 
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
+      </div>
+      <!--Grid row-->
 
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#!" class="btn btn-indigo">Button</a>
-                </div>
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
 
               </div>
-              <!--/.Card-->
-
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-              <!--Card-->
-              <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-
-              </div>
-              <!--/.Card-->
-
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-              <!--Card-->
-              <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                    alt="">
-                  <a href="#">
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-                  <!--Title-->
-                  <h4 class="card-title">Card title</h4>
-                  <!--Text-->
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-indigo">Button</a>
-                </div>
-
-              </div>
-              <!--/.Card-->
-
-            </div>
-            <!--Grid column-->
-
           </div>
-          <!--Grid row-->
+          <!--/.Card-->
 
-          <div class="row">
-            <div class="col-3 mx-auto my-2">
-                <div class="btn btn-block btn-outline-elegant mas-eventos">
-                  <span>Carga más eventos</span>
-                  <i class="fas fa-caret-down fa-lg"></i>
-                </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
             </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+
+            <!-- Card footer -->
+            <div class="rounded-bottom elegant-color text-center pt-3">
+              <ul class="list-unstyled list-inline font-small">
+                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+                <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+              </ul>
+            </div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <div class="row">
+        <div class="col-3 mx-auto my-2">
+          <div class="btn btn-block btn-outline-elegant mas-eventos">
+            <span>Cargar más</span>
+            <i class="fas fa-caret-down fa-lg"></i>
           </div>
         </div>
-        <!--canal container-->
+      </div>
+    </div>
+    <!--canal container-->
 
 
-            <!--Hoja container-->
-            <div class="container hoja-container contenido">
-                
-              <!--Grid row-->
-              <div class="row">
+    <!--Hoja container-->
+    <div class="container hoja-container contenido">
 
-                <!--Grid column-->
-                <div class="col-md-7 mb-4">
+      <!--Grid row-->
+      <div class="row">
 
-                  <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
-                    <div class="mask rgba-white-light"></div>
-                  </div>
+        <!--Grid column-->
+        <div class="col-md-7 mb-4">
 
-                </div>
-                <!--Grid column-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
 
-                <!--Grid column-->
-                <div class="col-md-5 mb-4">
+        </div>
+        <!--Grid column-->
 
-                  <h2>Descubre lo increíble</h2>
-                  <hr>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
-                    dolorem
-                    voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
-                    natus quaerat!
-                  </p>    
-                  <p>Fin de la presentación de la plataforma</p>
-                </div>
-                <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-5 mb-4">
 
-              </div>
-              <!--Grid row-->
+          <h2>Descubre lo increíble</h2>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam
+            dolorem
+            voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis
+            natus quaerat!
+          </p>
+          <p>Fin de la presentación de la plataforma</p>
+        </div>
+        <!--Grid column-->
 
-              <!--Grid row-->
-              <div class="row">
+      </div>
+      <!--Grid row-->
 
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-4">
+      <!--Grid row-->
+      <div class="row">
 
-                  <!--Card-->
-                  <div class="card">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
 
-                    <!--Card image-->
-                    <div class="view overlay">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
-                        alt="">
-                      <a href="#">
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
+          <!--Card-->
+          <div class="card">
 
-                    <!--Card content-->
-                    <div class="card-body">
-                      <!--Title-->
-                      <h4 class="card-title">Card title</h4>
-                      <!--Text-->
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#!" class="btn btn-indigo">Button</a>
-                    </div>
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
 
-                  </div>
-                  <!--/.Card-->
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
 
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                  <!--Card-->
-                  <div class="card">
-
-                    <!--Card image-->
-                    <div class="view overlay">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
-                        alt="">
-                      <a href="#">
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-
-                    <!--Card content-->
-                    <div class="card-body">
-                      <!--Title-->
-                      <h4 class="card-title">Card title</h4>
-                      <!--Text-->
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-indigo">Button</a>
-                    </div>
-
-                  </div>
-                  <!--/.Card-->
-
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                  <!--Card-->
-                  <div class="card">
-
-                    <!--Card image-->
-                    <div class="view overlay">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
-                        alt="">
-                      <a href="#">
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-
-                    <!--Card content-->
-                    <div class="card-body">
-                      <!--Title-->
-                      <h4 class="card-title">Card title</h4>
-                      <!--Text-->
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-indigo">Button</a>
-                    </div>
-
-                  </div>
-                  <!--/.Card-->
-
-                </div>
-                <!--Grid column-->
-
-              </div>
-              <!--Grid row-->
-
-              <div class="row">
-                <div class="col-3 mx-auto my-2">
-                    <div class="btn btn-block btn-outline-elegant mas-eventos">
-                      <span>Carga más eventos</span>
-                      <i class="fas fa-caret-down fa-lg"></i>
-                    </div>
-                </div>
               </div>
             </div>
-            <!--Hoja container-->
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title text-center">Nombre del evento</h4>
+              <!--Text-->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="row justify-content-center">
+                <a href="#!" class="btn btn-outline-elegant">Visitar evento</a>
+              </div>
+            </div>
+<!-- Card footer -->
+<div class="rounded-bottom elegant-color text-center pt-3">
+  <ul class="list-unstyled list-inline font-small">
+    <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/06/2019</li>
+    <li class="list-inline-item pr-2 white-text"><i class="fas fa-map-marker-alt pr-1"></i></i>Granada</li>
+  </ul>
+</div>
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+      <div class="row">
+        <div class="col-3 mx-auto my-2">
+          <div class="btn btn-block btn-outline-elegant mas-eventos">
+            <span>Cargar más</span>
+            <i class="fas fa-caret-down fa-lg"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Hoja container-->
 
 
 
@@ -1270,134 +1476,134 @@
 
     <!--Modal-->
     <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header text-center">
-              <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fas fa-user prefix grey-text"></i>
+              <input type="text" id="form34" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="form34">Your name</label>
             </div>
-            <div class="modal-body mx-3">
-              <div class="md-form mb-5">
-                <i class="fas fa-user prefix grey-text"></i>
-                <input type="text" id="form34" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="form34">Your name</label>
-              </div>
-      
-              <div class="md-form mb-5">
-                <i class="fas fa-envelope prefix grey-text"></i>
-                <input type="email" id="form29" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="form29">Your email</label>
-              </div>
-      
-              <div class="md-form mb-5">
-                <i class="fas fa-tag prefix grey-text"></i>
-                <input type="text" id="form32" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="form32">Subject</label>
-              </div>
-      
-              <div class="md-form">
-                <i class="fas fa-pencil prefix grey-text"></i>
-                <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-                <label data-error="wrong" data-success="right" for="form8">Your message</label>
-              </div>
-      
+
+            <div class="md-form mb-5">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <input type="email" id="form29" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="form29">Your email</label>
             </div>
-            <div class="modal-footer d-flex justify-content-center">
-              <button class="btn btn-unique btn-outline-dark">Buscar <i class="fas fa-search fa-lg"></i>
-              </button>
+
+            <div class="md-form mb-5">
+              <i class="fas fa-tag prefix grey-text"></i>
+              <input type="text" id="form32" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="form32">Subject</label>
             </div>
+
+            <div class="md-form">
+              <i class="fas fa-pencil prefix grey-text"></i>
+              <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+              <label data-error="wrong" data-success="right" for="form8">Your message</label>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-unique btn-outline-dark">Buscar <i class="fas fa-search fa-lg"></i>
+            </button>
           </div>
         </div>
       </div>
+    </div>
     <!--Modal-->
 
 
 
 
 
-      </main>
-      <!--Main layout-->
-    
-      <!-- Footer -->
-      <footer class="page-footer font-small indigo pt-4 mt-4">
-    
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-    
-          <!-- Grid row -->
-          <div class="row">
-    
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-    
-              <!-- Content -->
-              <h5 class="text-uppercase">Footer Content</h5>
-              <p>Here you can use rows and columns here to organize your footer content.</p>
-    
-            </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none pb-3">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-    
-              <!-- Links -->
-              <h5 class="text-uppercase">Links</h5>
-    
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!">Link 4</a>
-                </li>
-              </ul>
-    
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-    
-              <!-- Links -->
-              <h5 class="text-uppercase">Links</h5>
-    
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!">Link 4</a>
-                </li>
-              </ul>
-    
-            </div>
-            <!-- Grid column -->
-    
-          </div>
-          <!-- Grid row -->
-    
+  </main>
+  <!--Main layout-->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small indigo pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+
         </div>
-        <!-- Footer Links -->
-    
-      </footer>
-      <!-- Footer -->
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer -->
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
