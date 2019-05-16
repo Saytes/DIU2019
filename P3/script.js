@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $('.contenido').hide()
+    $('.home-container').fadeIn()
+
     $('.navbar-light .dmenu').hover(function () {
             $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
         }, function () {
