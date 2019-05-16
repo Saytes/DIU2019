@@ -39,6 +39,16 @@ $(document).ready(function () {
         $('.hoja-container').fadeIn()
     })
 
+    $('.contacto-button').click( () => {
+        $('.contenido').hide()
+        $('.contacto-container').fadeIn()
+    })
+
+    $('.acerca-button').click( () => {
+        $('.contenido').hide()
+        $('.acerca-container').fadeIn()
+    })
+
 
 });
 
