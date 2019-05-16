@@ -7,9 +7,7 @@ $(document).ready(function () {
         }, function () {
             $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
         });
-    $('#Carousel').carousel({
-        interval: 5000
-    })
+
 
     $('.inicio-button').click( () => {
         $('.contenido').hide()
