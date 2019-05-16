@@ -7,5 +7,37 @@ $(document).ready(function () {
     $('#Carousel').carousel({
         interval: 5000
     })
+
+    $('.inicio-button').click( () => {
+        $('.contenido').hide()
+        $('.home-container').fadeIn()
+    })
+
+    $('.ocio-button').click( () => {
+        $('.contenido').hide()
+        $('.ocio-container').fadeIn()
+    })
+    
+    $('.conferencias-button').click( () => {
+        $('.contenido').hide()
+        $('.conferencias-container').fadeIn()
+    })
+
+    $('.exposiciones-button').click( () => {
+        $('.contenido').hide()
+        $('.exposiciones-container').fadeIn()
+    })
+
+    $('.canal-button').click( () => {
+        $('.contenido').hide()
+        $('.canal-container').fadeIn()
+    })
+
+    $('.hoja-button').click( () => {
+        $('.contenido').hide()
+        $('.hoja-container').fadeIn()
+    })
+
+
 });
 
