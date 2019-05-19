@@ -34,6 +34,12 @@ nav .search-icon span {
   font-size: 1.3em;
 }
 
+
+#proximos.carousel{
+  height: 24em;       
+}
+
+
 .carousel-control {
   color: #343A40;
 }
