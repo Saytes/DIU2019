@@ -46,8 +46,12 @@ nav .search-icon span {
 
 #img {
   width: 350px;
-  height: 233.328px;
+  height: 181.63px;
 }
+
+/* .contenido:not(.home-container) .card {
+  height: 40em;
+} */
 
 .page-footer {
   border-top: 1px solid #2E2E2E;
