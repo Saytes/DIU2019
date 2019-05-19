@@ -1442,94 +1442,108 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header text-center">
-            <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+            <h4 class="modal-title w-100 font-weight-bold">Búsqueda</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body mx-3">
 
-            <div class="md-form mb-5">
-              <i class="fas fa-bars prefix"></i>
-              <select class="col form-control validate">
-                <option value="" disabled selected>Seleccione un Campus</option>
-                <option value="1">Campus Centro</option>
-                <option value="2">Campus Cartuja</option>
-                <option value="3">Campus Fuentenueva</option>
-                <option value="4">Campus Aynadamar</option>
-                <option value="5">Campus PTS</option>
-              </select>
-            </div>
+<!-- Default form login -->
+<form class="text-center">
 
-            <p class="text-center">
-            <label class="col-md-4 control-label" for="categoria">Categorías</label>
-            </p>
-            <div class="form-check mb-4">
-              <input class="form-check-input" name="group1" type="radio" id="radio-179" value="option1" checked>
-              <label class="form-check-label" for="radio-179">Ocio y talleres</label>
-            </div>
+  <!-- Termino -->
+  <input type="text" id="termino_search" class="form-control mb-3" placeholder="Término (opcional)">
+  
+  <!-- Categoría -->
+  <div class="buscar-categorias border border-muted p-2 mb-3">
+    <h5 class="text-center mb-3">Categorías</h5>
+    <div class="form-check mb-1 mr-auto">
+        <input class="form-check-input" name="group1" type="checkbox" id="checkbox-179" value="option1" checked>
+        <label class="form-check-label" for="checkbox-179">Ocio y talleres</label>
+      </div>
 
-            <div class="form-check mb-4">
-              <input class="form-check-input" name="group1" type="radio" id="radio-279" value="option2">
-              <label class="form-check-label" for="radio-279">Conferencias</label>
-            </div>
+      <div class="form-check mb-1 mr-auto">
+        <input class="form-check-input" name="group1" type="checkbox" id="checkbox-279" value="option2" checked>
+        <label class="form-check-label" for="checkbox-279">Conferencias</label>
+      </div>
 
-            <div class="form-check mb-4">
-              <input class="form-check-input" name="group1" type="radio" id="radio-379" value="option3">
-              <label class="form-check-label" for="radio-379">Exposiciones</label>
-            </div>
-            <div class="form-check mb-4">
-              <input class="form-check-input" name="group1" type="radio" id="radio-479" value="option4">
-              <label class="form-check-label" for="radio-479">Canal UGR</label>
-            </div>
-            <div class="form-check mb-4">
-              <input class="form-check-input" name="group1" type="radio" id="radio-579" value="option5">
-              <label class="form-check-label" for="radio-579">Hoja Informativa de la Semana</label>
-            </div>
+      <div class="form-check mb-1 mr-auto">
+        <input class="form-check-input" name="group1" type="checkbox" id="checkbox-379" value="option3" checked>
+        <label class="form-check-label" for="checkbox-379">Exposiciones</label>
+      </div>
+      <div class="form-check mb-1 mr-auto">
+        <input class="form-check-input" name="group1" type="checkbox" id="checkbox-479" value="option4" checked>
+        <label class="form-check-label" for="checkbox-479">Canal UGR</label>
+      </div>
+      <div class="form-check mb-1 mr-auto">
+        <input class="form-check-input" name="group1" type="checkbox" id="checkbox-579" value="option5" checked>
+        <label class="form-check-label" for="checkbox-579">Hoja Informativa</label>
+    </div>
+  </div>
 
-            <p class="text-center">
-            <label class="col-md-4 control-label" for="categoria">Alrededores</label>
-            </p>
-            <div class="form-check mb-4">
-              <label class="radio-inline" for="radio-179">
-                  <input type="radio" name="alrededores" id="alrededores-1" value="1">
-                  Sí
-              </label>
-              <label class="radio-inline" for="radio-179">
-                  <input type="radio" name="alrededores" id="alrededores-1" value="2">
-                  No
-              </label>
-            </div>
 
-            <div class="md-form mb-5">
-                <i class="fas fa-search prefix black-text"></i>
-                <input type="text" id="form34" placeholder="Ejemplo: Juegos de Mesa"  class="form-control validate">
-                <label data-error="wrong" data-success="right" for="form34">Escriba aquí la información a buscar.</label>
-            </div>
 
-            <p class="text-center">
-            <label class="col-md-4 control-label" for="categoria">Fechas</label>
-            </p>
-            <div class="form-check mb-4">
-              <label class="radio-inline" for="radio-179">
-                  <input type="radio" name="alrededores" id="alrededores-1" value="1" checked="checked">
-                  21/05/2019
-              </label>
-              <label class="radio-inline" for="radio-179">
-                  <input type="radio" name="alrededores" id="alrededores-1" value="2">
-                  22/05/2019
-              </label>
-            </div>
+  <div class="md-form mb-2">
+    <select class="col px-2 mb-2 form-control validate">
+      <option value="" disabled selected>Cualquier zona</option>
+      <option value="1">Campus Centro</option>
+      <option value="2">Campus Cartuja</option>
+      <option value="3">Campus Fuentenueva</option>
+      <option value="4">Campus Aynadamar</option>
+      <option value="5">Campus PTS</option>
+    </select>
+  </div>
+
+  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="alrededores" checked>
+      <label class="custom-control-label" for="alrededores">Buscar en alredores</label>
+  </div>
+
+  
+
+  <div class="container p-2 border border-muted">
+      <h5 class="text-center">Eventos entre 2 fechas</h5>
+
+      <div class="md-form m-2">
+        <!--The "from" Date Picker -->
+        <input placeholder="Fecha de comienzo" type="date" id="startingDate" class="form-control datepicker ">
+      </div>
+
+      <div class="md-form m-2">
+        <!--The "to" Date Picker -->
+        <input placeholder="Fecha de finalización" type="date" id="endingDate" class="form-control datepicker">
+      </div>
+  </div>
+
+
+  <div class="my-3 p-3 border border-muted">
+    <div class="row justify-content-around">
+        <div class="custom-control custom-switch gratis col">
+            <input type="checkbox" class="custom-control-input" id="gratis-switch" enabled>
+            <label class="custom-control-label" for="gratis-switch">Gratuitos</label>
+          </div>
+          <div class="custom-control custom-switch pago col">
+            <input type="checkbox" class="custom-control-input" id="pago-switch" enabled>
+            <label class="custom-control-label" for="pago-switch">De pago</label>
+          </div>
+    </div>
+    
+  </div>
+  
+
+</form>
+
+          </div>
             
-          </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn-unique btn-outline-dark">Buscar <i class="fas fa-search fa-lg"></i>
-            </button>
-          </div>
-        </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique btn-outline-dark">Buscar <i class="fas fa-search fa-lg"></i>
+        </button>
       </div>
     </div>
-    <!--Modal-->
+  </div>
+</div>
+<!--Modal-->
 
 
 
