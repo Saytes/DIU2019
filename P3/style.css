@@ -38,6 +38,11 @@ nav .search-icon span {
   color: #343A40;
 }
 
+#img {
+  width: 350px;
+  height: 233.328px;
+}
+
 .page-footer {
   border-top: 1px solid #2E2E2E;
   border-bottom: 1px solid #2E2E2E;
