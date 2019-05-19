@@ -49,6 +49,11 @@ $(document).ready(function () {
         $('.acerca-container').fadeIn()
     })
 
+    $('#buscar').click( () => {
+        $('.contenido').hide()
+        $('#modalBusqueda').modal('hide')
+        $('.resultados-container').fadeIn()
+    })
 
 
 });

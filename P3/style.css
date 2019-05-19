@@ -49,8 +49,8 @@ nav .search-icon span {
   height: 181.63px;
 }
 
-.contenido:not(.home-container) .card-body {
-  height: 21em;
+.contenido:not(.home-container .hoja-container .canal-container) .card-body {
+  height: 23em;
 }
 
 .page-footer {
