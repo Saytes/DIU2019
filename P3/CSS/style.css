@@ -39,8 +39,9 @@ nav .search-icon span {
   height: 100%;       
 }
 
-#proximosac.carousel{
-  height: 100%;       
+#proximos.carousel .card-body .card-text{
+  width: 80%;
+  margin: 2em auto;       
 }
 
 .carousel-control {
