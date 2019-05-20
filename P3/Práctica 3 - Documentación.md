@@ -19,11 +19,13 @@
 
 ---
 
-Para el desarrollo del prototipo de nuestra plataforma de eventos de la UGR hemos utilizado [Snippets](https://mdbootstrap.com/snippets/), el cual está basado en [Bootstrap](https://getbootstrap.com/).
-El motivo por el cual hemos seleccionado la herramienta mencionada ha sido porqué tras evaluar las propuestas mencionadas en el guión de la práctica 3 hemos visto que 
-[Snippets](https://mdbootstrap.com/snippets/) nos ofrecía una clara ventaja como es la simplicidad a la hora de desarrollar, aparte de adecuarse muy bien a las necesidades de nuestra plataforma.
+Para el desarrollo del prototipo de nuestra plataforma de eventos de la UGR hemos utilizado [MD Bootstrap](https://mdbootstrap.com/), el cual está basado en [Bootstrap](https://getbootstrap.com/).
+El motivo para decantarse por esta solución es la potencia que ofrece. Contamos con los estilos y la sintaxis de bootstrap, pero añadiendo una capa de mayor personalización y estilos a un mínimo coste.
 
-En cuanto al layout de la plataforma hemos intentado hacerla lo más intuitiva posible, utilizando distintos modals para realizar búsquedas y para los resultados tras estas, y usando tonalidades blancas y negras, quedando una página llamativa.
+Además, tanto bootstrap como MD bootstrap se adecuan perfectamente a la solución que buscamos. Un potente framework CSS con una gran cantidad de recursos integrados y un sistema de grid sencillo, con el que adaptar el contenido a dispositivos móviles con un esfuerzo reducido.
+Ambas herramientas cuentan con [snippets](https://mdbootstrap.com/snippets/) y generadores de formas para facilitar el desarrollo.
+
+El desarrollo de la plataforma se ha realizado en Visual Studio Code, un potente editor con gran cantidad de plugins. También cuenta por defecto con [Emmet](https://emmet.io/), haciendo la programación HTML menos tediosa.
 
 <div style="page-break-after: always;"></div>
 
@@ -31,9 +33,20 @@ En cuanto al layout de la plataforma hemos intentado hacerla lo más intuitiva p
 
 ---
 
-Para el desarrollo de nuestra plataforma hemos usado HTML, añadiendo el estilo de este con los patrones de diseño de grid definidos en bootstrap, tales como añadir a la clase determinadas palabras reservadas para generar el estilo, y añadiendo una hoja de estilos CSS con algunas propiedades del estilo para determinadas situaciones.   
+Para el desarrollo de nuestra plataforma se ha empleado HTML junto con CSS para algunos estilos y javascript para algunas funcionalidades.
 
-También hemos definido una función en JavaScript para implementar la búsqueda de información en la plataforma.
+Empleamos un sistema grid de 12 columnas. En la mayoría de casos, el estilo ha sido definido empleando las reglas de bootstrap sobre el HTML, aunque para algunos detalles hemos empleado reglas CSS.
+
+Todos los estilos han sido diseñados intentando mantener un estilo agradable e intuitivo tanto en dispositivos móviles como en laptops. Un ejemplo de esto es la barra de navegación, que se ocultará en dispositivos como una tablet o de menor tamaño.
+
+Siguiendo algunos enlaces de la documentación proveída por el profesor, se muestra en la página principal un carrusel de tarjetas con algunos eventos de posible interés para cualquier usuario que visite la página.
+
+También se emplean modales en el formulario de búsqueda de eventos y en los detalles del evento en el que se haga click.
+
+Nos hemos decidido por crear una web minimalista, evitando sobrecargas e información inverosímil para el usuario medio. Se emplea el color blanco como fondo, y el color `elegant`, un tipo de negro ofrecido por MDbootstrap
+
+Se emplea *OpenSans* como fuente predeterminada, ya que es la más recomendada a la hora de mostrar grandes textos, facilitando la lectura al usuario.
+En el header se ha empleado la fuente *Marck Script*. Se trata de una fuente "handwrite" elegante que no destaca de forma exagerada.
 
 <div style="page-break-after: always;"></div>
 
@@ -47,7 +60,6 @@ Como simulación de datos hemos incluído los siguientes:
 - Información real sobre Exposiciones.
 - Noticias reales incluídas en el apartado de Canal UGR.
 - Noticias reales incluídas en el apartado de Hoja Informativa.
-- Búsquedas de información en la plataforma.
 
 Todos los datos incluídos han sido extraídos de la página de [Canal UGR](https://canal.ugr.es/).  
 
@@ -55,12 +67,16 @@ Todos los datos incluídos han sido extraídos de la página de [Canal UGR](http
 
 ---
 
-Esta práctica nos ha resultado muy interesante ya que nos hace fijarnos en los más pequeños detalles para que el desarrollo de nuestra Interfaz de Usuario sea lo más intuitiva y atractiva posible.
 
-Por otro lado, gracias a las herramientas propuestas y usadas el desarrollo de la práctica se ha hecho mucho más ameno, aparte de ser también interesante ya que podremos usarlas posteriormente para otros proyectos.
+Esta práctica ha resultado de lo más interesante, ya que nos obliga a pensar en como mostrar al usuario aquello que queremos que vea, a darnos cuenta de detalles que mejoran la calidad de la navegación y otros que la entorpecen. 
+
+Así, hemos mostrado una parte más personal, ya que la página ha sido desarrollada teniendo en cuenta elementos prefijados, pero con un estilo muy propio. Esto nos enseñará que cosas mejorar y que cosas mantener para un futuro.
+
+Por otro lado, gracias a las herramientas propuestas, el desarrollo de la práctica se ha hecho mucho más ameno y entretenido. Además, estás herramientas son tremendamente útiles, y reducirán enormemente el tiempo empleado en futuros proyectos.
+
+Un detalle ha destacar es que entre los diseños de la práctica 2 y el diseño final de la práctica 3 ha habido un gran número de cambios. Podemos deducir que las IU deben estar en constante evolución (aunque sea de forma muy lenta), ya que los gustos y usuarios cambian continuamente.
 
 Finalmente, la página web ha sido alojada en Github, en un repositorio llamado DIU2019(enlace a la página [aquí](https://saytes.github.io/DIU2019/P3/index.html)), y este ha sido enlazado al repositorio de la Asignatura propuesto (DIU19).
-<div style="page-break-after: always;"></div>
 
 
 
