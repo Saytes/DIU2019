@@ -31,7 +31,9 @@ En cuanto al layout de la plataforma hemos intentado hacerla lo más intuitiva p
 
 ---
 
-Para el desarrollo de nuestro prototitpo 
+Para el desarrollo de nuestra plataforma hemos usado HTML, añadiendo el estilo de este con los patrones de diseño de grid definidos en bootstrap, tales como añadir a la clase determinadas palabras reservadas para generar el estilo, y añadiendo una hoja de estilos CSS con algunas propiedades del estilo para determinadas situaciones.   
+
+También hemos definido una función en JavaScript para implementar la búsqueda de información en la plataforma.
 
 <div style="page-break-after: always;"></div>
 
@@ -45,6 +47,7 @@ Como simulación de datos hemos incluído los siguientes:
 - Información real sobre Exposiciones.
 - Noticias reales incluídas en el apartado de Canal UGR.
 - Noticias reales incluídas en el apartado de Hoja Informativa.
+- Búsquedas de información en la plataforma.
 
 Todos los datos incluídos han sido extraídos de la página de [Canal UGR](https://canal.ugr.es/).  
 
