@@ -56,6 +56,10 @@ nav .search-icon span {
   height: 23em;
 }
 
+.card-text{
+  text-align: center;
+}
+
 .page-footer {
   border-top: 1px solid #2E2E2E;
   border-bottom: 1px solid #2E2E2E;
