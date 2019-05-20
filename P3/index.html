@@ -260,43 +260,125 @@
 
     <!--Contacto container-->
     <div class="container contacto-container contenido">
-<!-- Default form contact -->
-<form class="text-center border border-muted p-5">
+      <!-- Default form contact -->
+      <form class="text-center border border-muted p-5">
 
-    <p class="h4 mb-4">Póngase en contacto con nosotros</p>
+          <p class="h4 mb-4">Póngase en contacto con nosotros</p>
 
-    <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+          <!-- Name -->
+          <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
 
-    <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+          <!-- Email -->
+          <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
 
-    <!-- Subject -->
-    <label>Motivo</label>
-    <select class="browser-default custom-select mb-4">
-        <option value="" disabled>Elige una opción</option>
-        <option value="1" selected>Retroalimentación</option>
-        <option value="2">Reportar un bug</option>
-        <option value="3">Pedir una nueva funcionalidad</option>
-        <option value="4">Otro motivo</option>
-    </select>
+          <!-- Subject -->
+          <label>Motivo</label>
+          <select class="browser-default custom-select mb-4">
+              <option value="" disabled>Elige una opción</option>
+              <option value="1" selected>Retroalimentación</option>
+              <option value="2">Reportar un bug</option>
+              <option value="3">Pedir una nueva funcionalidad</option>
+              <option value="4">Otro motivo</option>
+          </select>
 
-    <!-- Message -->
-    <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje"></textarea>
+          <!-- Message -->
+          <div class="form-group">
+              <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje"></textarea>
+          </div>
+
+          <!-- Copy -->
+          <div class="custom-control custom-checkbox mb-4">
+              <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+              <label class="custom-control-label" for="defaultContactFormCopy">Envíame una copia del mensaje</label>
+          </div>
+
+          <!-- Send button -->
+          <button class="btn btn-outline-muted btn-block" type="submit">Enviar</button>
+
+      </form>
+      <!-- Default form contact -->
     </div>
 
-    <!-- Copy -->
-    <div class="custom-control custom-checkbox mb-4">
-        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-        <label class="custom-control-label" for="defaultContactFormCopy">Envíame una copia del mensaje</label>
-    </div>
+    <!--acerca de container-->
+    <div class="container acerca-container contenido slide" data-ride="carousel">
+      <div id="proximosac" class="carousel my-4 mx-5 slide" data-ride="carousel">
 
-    <!-- Send button -->
-    <button class="btn btn-outline-muted btn-block" type="submit">Enviar</button>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!--Card-->
+            <div class="card text-center">
+              <div class="card-header elegant-color text-white">
+                <h5> Equipo de Desarollo
+                </h5>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Titulo equipo.</h4>
+                <p class="card-text">
+                    Texto equipo
+                </p>
+              </div>  
+              <div class="card-footer elegant-color text-white">
+                <div class="row justify-content-center align-items-center">
+                </div>
+              </div>            
+            </div>
+          <!--/.Card-->
+          </div>
 
-</form>
-<!-- Default form contact -->
+          <div class="carousel-item">
+            <!--Card-->
+            <div class="card text-center">
+              <div class="card-header elegant-color text-white">
+                <h5> Software empleado
+                </h5>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Título software.</h4>
+                <p class="card-text">
+                    Texto software.
+                </p>
+              </div>
+              <div class="card-footer elegant-color text-white">
+                <div class="row justify-content-center align-items-center">
+                </div>
+              </div>
+            </div>
+          <!--/.Card-->
+          </div>
+
+          <div class="carousel-item">
+            <!--Card-->
+            <div class="card text-center">
+              <div class="card-header elegant-color text-white">
+                <h5> Información sobre la coordinación de la plataforma.
+                </h5>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Título coordinación.</h4>
+                <p class="card-text">
+                    Texto coordinación
+                </p>
+              </div>
+              <div class="card-footer elegant-color text-white">
+                <div class="row justify-content-center align-items-center">
+                </div>
+              </div>
+            </div>
+          <!--/.Card-->
+          </div>
+          
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#proximosac" data-slide="prev">
+          <i class="fas fa-caret-left carousel-control fa-3x"></i> </a>
+        <a class="carousel-control-next" href="#proximosac" data-slide="next">
+          <i class="fas fa-caret-right carousel-control fa-3x"></i>
+        </a>
+
+      </div>
+      <!--Carrusel-->
     </div>
 
 
@@ -2003,6 +2085,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/js/mdb.min.js"></script>
-<script type="text/javascript" src="Javascript/script.js"></script>
+<script type="text/javascript" src="./Javascript/script.js"></script>
 
 </html>
