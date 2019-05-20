@@ -39,6 +39,9 @@ nav .search-icon span {
   height: 100%;       
 }
 
+#proximosac.carousel{
+  height: 100%;       
+}
 
 .carousel-control {
   color: #343A40;
