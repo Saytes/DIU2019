@@ -11,11 +11,11 @@
 ### Índice
 
 1. [Herramientas seleccionadas y Diseño del Layout.](#herramientas)
-2. [Guía de estilos y patrones utilizados.](estilos)
-3. [Simulación de datos.](simulacion)
+2. [Guía de estilos y patrones utilizados.](#estilos)
+3. [Simulación de datos.](#simulacion)
 4. [Comentarios y conclusión.](#conclusion)
 
-### Herramientas Seleccionadas y Diseño del Layout <a href="herramientas"></a>
+### Herramientas Seleccionadas y Diseño del Layout <a name="herramientas"></a>
 
 ---
 
@@ -27,7 +27,7 @@ En cuanto al layout de la plataforma hemos intentado hacerla lo más intuitiva p
 
 <div style="page-break-after: always;"></div>
 
-### Guía de estilos y patrones utilizados<a href="estilos"></a>
+### Guía de estilos y patrones utilizados<a name="estilos"></a>
 
 ---
 
@@ -35,7 +35,7 @@ Para el desarrollo de nuestro prototitpo
 
 <div style="page-break-after: always;"></div>
 
-### Simulación de datos<a href="simulacion"></a>
+### Simulación de datos<a name="simulacion"></a>
 
 ---
 
@@ -48,7 +48,7 @@ Como simulación de datos hemos incluído los siguientes:
 
 Todos los datos incluídos han sido extraídos de la página de [Canal UGR](https://canal.ugr.es/).  
 
-### Comentarios y conclusión<a href="conclusión"></a>
+### Comentarios y conclusión<a name="conclusión"></a>
 
 ---
 
