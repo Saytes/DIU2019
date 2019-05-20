@@ -8,9 +8,14 @@
 - Jorge Gutiérrez Segovia - *saytes@correo.ugr.es*
 - DIU 1 - Martes 15:30
 
-- Herramientas seleccionadas. Diseño del Layout - Guía de estilos y patrones utilizados. - Simulación de datos (acciones simuladas) - Comentarios y conclusión. 
+### Índice
 
-### Herramientas Seleccionadas y Diseño del Layout
+1. [Herramientas seleccionadas y Diseño del Layout.](#herramientas)
+2. [Guía de estilos y patrones utilizados.](estilos)
+3. [Simulación de datos.](simulacion)
+4. [Comentarios y conclusión.](#conclusion)
+
+### Herramientas Seleccionadas y Diseño del Layout <a href="herramientas"></a>
 
 ---
 
@@ -22,7 +27,7 @@ En cuanto al layout de la plataforma hemos intentado hacerla lo más intuitiva p
 
 <div style="page-break-after: always;"></div>
 
-### Guía de estilos y patrones utilizados
+### Guía de estilos y patrones utilizados<a href="estilos"></a>
 
 ---
 
@@ -30,7 +35,7 @@ Para el desarrollo de nuestro prototitpo
 
 <div style="page-break-after: always;"></div>
 
-### Simulación de datos
+### Simulación de datos<a href="simulacion"></a>
 
 ---
 
@@ -43,7 +48,7 @@ Como simulación de datos hemos incluído los siguientes:
 
 Todos los datos incluídos han sido extraídos de la página de [Canal UGR](https://canal.ugr.es/).  
 
-### Comentarios y conclusión
+### Comentarios y conclusión<a href="conclusión"></a>
 
 ---
 
