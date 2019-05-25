@@ -33,13 +33,21 @@ Se desarrollará un equipo multidisciplinar de personas de distintas edades, sex
 
 
 #### Perfil #3
+    Marichela es una joven moldava de 19 años. Llegó a España hace 15 años, buscando con su familia una mejor vida. 
 
+    Marichela es estudiante. En estos momentos está cursando el primer curso de Ing. Informática en Granada.
+
+    Desde que tiene memoria, le ha fascinado la cultura española, pero sobre todo la andaluza. Disfruta enormemente de las actuaciones de flamenco, tanto cante como bailes. También adora los teatros y las exhibiciones con caballos.
+
+    Marichela es una persona muy extrovertida. Tiene una gran cantidad de amigos, y siempre tiene algún plan que hacer. O casi siempre. Últimamente se encuentra muy disgustada. Sabe que en su zona hay espectáculos de su gusto muy llamativos, pero apenas encuentra información al respecto, y la poca que existe aparece dispersa en distintas web.
+
+#### Perfil #3
 | #id | Sexo   | Edad | Ocupación | Experiencia | Plataforma | Perfil | Test | SUS score |
 |-----|--------|------|-----------|-------------|------------|--------|------|-----------|
 | #1 | Mujer | 51 | Abogada | Intermedio | Windows | 4,5,1 | x | x |
 | #2 | Mujer | 43 | Camarera | Intermedio | iPhone | 2,4,3 | x | x |
-| #3 | Mujer  | 19 |           |             |            | 3,6,4 | x | x |
-| #4 | Hombre | 29 |           |             |            | 5,1,2 | x | x |
+| #3 | Mujer  | 19 |  | Avanzado |            | 3,3,5 | x | x |
+| #4 | Hombre | 29 |  | Bajo |            | 5,1,4 | x | x |
 
 ### System Usability Scale Test <a id="sus" />
 
