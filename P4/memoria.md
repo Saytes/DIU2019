@@ -15,7 +15,31 @@
 
 ### Personas ficticias <a id="personas" />
 
+Se desarrollará un equipo multidisciplinar de personas de distintas edades, sexos, profesiones, actitudes y aptitudes.
 
+#### Perfil #1
+    Marta es una abogada de 51 años que trabaja en un buffet. Marta cuenta con una discapacidad. Tras un accidente de tráfico, perdió la movilidad en sus piernas. Por ello, usa una silla de ruedas para desplazarse.
+
+    Siempre se ha considerado una persona curiosa, que no teme a las nuevas tecnologías y disfruta navegando en busca de más información acerca de sus numerosos intereses. Entre ellos, destaca la fotografía.
+
+    Marta está enfadada. Tras irse a vivir a Granada, ha buscado exposiciones de fotografía y excursiones a zonas que merece la pena fotografiar en la capital, pero no encuentra una buena plataforma donde encontrarlos.
+
+#### Perfil #2
+    Laura es una persona familiar y muy inteligente. Su máxima en la vida es contentar a sus seres queridos, entre ellos su hijo Fran de 8 años. Tras la muerte de su marido hace 3 años, ha tenido que retomar su antiguo empleo en un restaurante cercano a sus 43 años. Ahora, dedica todo el tiempo disponible con el que cuenta a hacer cosas con su hijo. Disfrutan paseando, viajando, viendo exposiciones o asistiendo a obras de teatro. 
+    
+    Esto la hace recordar a su difunto marido y verlo en su hijo, lo cual la llena de alegría. Por ello siempre está ociosa.
+
+    Laura es una persona excesivamente organizada. Nunca deja nada al azar y planifica toda aquella actividad que realiza con mucha antelación.
+
+
+#### Perfil #3
+
+| #id | Sexo   | Edad | Ocupación | Experiencia | Plataforma | Perfil | Test | SUS score |
+|-----|--------|------|-----------|-------------|------------|--------|------|-----------|
+| #1 | Mujer | 51 | Abogada | Intermedio | Windows | 4,5,1 | x | x |
+| #2 | Mujer | 43 | Camarera | Intermedio | iPhone | 2,4,3 | x | x |
+| #3 | Mujer  | 19 |           |             |            | 3,6,4 | x | x |
+| #4 | Hombre | 29 |           |             |            | 5,1,2 | x | x |
 
 ### System Usability Scale Test <a id="sus" />
 
