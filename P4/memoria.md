@@ -42,24 +42,16 @@ Se desarrollará un equipo multidisciplinar de personas de distintas edades, sex
     Marichela es una persona muy extrovertida. Tiene una gran cantidad de amigos, y siempre tiene algún plan que hacer. O casi siempre. Últimamente se encuentra muy disgustada. Sabe que en su zona hay espectáculos de su gusto muy llamativos, pero apenas encuentra información al respecto, y la poca que existe aparece dispersa en distintas web.
 
 #### Perfil #4
-    Antonio es un ganadero de los de antaño. Desde que tiene recuerdo, se ha dedicado a la crianza de animales o ganadería. Es un oficio que disfruta muchísimo, ya que es un hombre tranquilo que adora pasear por el campo y que disfruta su soledad.
-
-    Antonio se muestra reacio a adoptar las nuevas tecnologías. Tras 10 años con su teléfono de concha, su compañía telefónica le ha ofrecido un smartphone.
-
-    Esto le asusta, ya que resulta demasiado complejo, y teme realizar algo que le cueste el dinero sin saberlo. Siente que se queda anticuado. 
-
-    Por suerte, su sobrino le está ayudando a coger soltura con su teléfono. Ya tiene Whatsapp para comunicarse con sus familiares y amigos. También ha aprendido a usar Facebook, donde comparte fotos de sus animales.
-
-    Próximamente, Antonio debe permanecer en Granada con unos familiares un período de tiempo. Quiere evitar a toda costa estar encerrado en un bloque de pisos, así que el próximo paso es encontrar eventos interesantes para realizar en la ciudad el tiempo que permanezca en ella.
+    Antonio es un estudiante de 27 años de Ing. Civil en la Universidad de Granada. A Antonio le gusta salir de cervezas con sus compañeros tras acabar las clases. Esta tarde es el Corpus en Granada y va a salir con sus compañeros de clase. Está eufórico ya que también lo acompaña la chica que le gusta. Debido al estrés causado con sus recientes exámenes, Antonio no ha tenido tiempo suficiente para informarse de las actividades propuestas para ese día, por lo que accede a la plataforma en busca de información.
 
 
 #### Tabla
 | #id | Sexo   | Edad | Ocupación | Experiencia | Plataforma | Perfil | Test | SUS score |
 |-----|--------|------|-----------|-------------|------------|--------|------|-----------|
-| #1 | Mujer | 51 | Abogada | Intermedio | Windows | 4,5,1 | x | x |
-| #2 | Mujer | 43 | Camarera | Intermedio | iPhone | 2,4,3 | x | x |
-| #3 | Mujer | 19 | Estudiante | Avanzado | Linux, Android | 3,3,5 | x | x |
-| #4 | Hombre | 39 | Ganadero | Bajo | Android | 1,6,2 | x | x |
+| #1 | Hombre | 27 | Estudiante | Intermedio | Android | 3,3,3 | A | 87.5 |
+| #2 | Mujer | 43 | Camarera | Bajo | iPhone | Real | A | 90 |
+| #3 | Mujer | 19 | Estudiante | Avanzado | Linux, Android | Real | B | x |
+| #4 | Mujer | 51 | Abogada | Intermedio | Windows | 4,5,1 | B | x |
 
 ### System Usability Scale Test <a id="sus" />
 
