@@ -58,3 +58,33 @@ Se desarrollará un equipo multidisciplinar de personas de distintas edades, sex
 [https://drive.google.com/file/d/1Uj3fzUULwvtYPh5PkeTJtxNiGNwemJ0v/view?usp=sharing](https://drive.google.com/file/d/1Uj3fzUULwvtYPh5PkeTJtxNiGNwemJ0v/view?usp=sharing)
 
 ### Evaluación de usabilidad de la aplicación B <a id="usabilidad" />
+
+Con respecto a la evaluación de usabilidad de la aplicación B se podrían proponer varias mejoras. 
+
+Primero, al acceder a la plataforma la página principal únicamente muestra una imagen y un botón de acceso, 
+mientras que sería más interesante mostrar información relevante sobre la plataforma. 
+
+Por otro lado el pie de página no ha recibido ningún cambio, debido a que muestra cosas que no tienen sentido. 
+
+En la aplicación no hay navegación por categorías, se muestran de forma indiferente en un contenedor dentro de la página de resultados de un evento. 
+
+La página no esta traducida al español por completo. 
+
+El precio de un evento no se muestra en la vista preliminar de este, solo se observa cuando se entra dentro de la información 
+detallada del evento. 
+
+La búsqueda no permite filtros, lo cual la hace demasiado simple. 
+
+Otra mejora propuesta sería la de no dejar que cualquier usuario cree un evento, ya que pueden ser falsos o repetidos, y, en caso de permitirlo
+estos deberían ser revisados por un administrador.
+
+Con respeto al acceso a la plataforma a través de un smartphone o tablet, los estilos se rompen.
+Algunos elementos se descuadran, otros no son claramente visibles y el calendario oculta parte del contenido.
+
+### Conclusión <a id="conclusion"/>
+
+Al realizar esta práctica nos hemos dado cuenta de posibles fallos en nuestra plataforma al ponernos en el papel de otrad personas.
+
+También hemos recibidos críticas de otros usuarios reales, además hemos podido compararla con otra aplicación, viendo los puntos fuertes y los débiles de cada una.
+
+Finalmente hemos hecho uso de la autocrítica, teniendo esta como referencia en proyectos futuros. 
