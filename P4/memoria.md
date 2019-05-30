@@ -12,8 +12,9 @@
 1. [Personas ficticias](#personas)
 2. [System Usability Scale Test](#sus)
 3. [Evaluación de usabilidad de la aplicación B](#usabilidad)
+4. [Conclusión](#conclusion)
 
-### Personas ficticias <a id="personas" />
+## Personas ficticias <a id="personas" />
 
 Se desarrollará un equipo multidisciplinar de personas de distintas edades, sexos, profesiones, actitudes y aptitudes.
 
