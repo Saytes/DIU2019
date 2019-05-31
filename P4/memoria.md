@@ -60,7 +60,9 @@ Se desarrollará un equipo multidisciplinar de personas de distintas edades, sex
 
 ### Evaluación de usabilidad de la aplicación B <a id="usabilidad" />
 
-Con respecto a la evaluación de usabilidad de la aplicación B se podrían proponer varias mejoras. 
+Tras evaluar la plataforma [La Plaza](https://davidbaug.github.io/laplaza/) hemos llegado a la conclusión de que la aplicación necesita mejoras urgentes.
+
+Las mejoras propuestas son las siguientes: 
 
 Primero, al acceder a la plataforma la página principal únicamente muestra una imagen y un botón de acceso, 
 mientras que sería más interesante mostrar información relevante sobre la plataforma. 
